@@ -1,0 +1,75 @@
+* {
+  /*background-size: auto 100%;*/
+}
+
+body {
+  background-color: rgb(236, 231, 223);
+}
+
+#banner, .navigation .icon {
+  border-color: rgb(195, 191, 181)
+}
+
+#banner {
+  background-color: #bba69b;
+  background-image: url("images/background_2.jpg");
+  background-position: center;
+  background-size: auto 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+}
+
+#banner .content {
+  background-color: rgba(222, 218, 212, 0.75);
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: solid 1px rgb(181, 176, 166);
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px rgb(71, 64, 50);
+}
+
+.navigation{
+  background-color: rgb(227, 221, 210);
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: solid 1px rgb(189, 186, 176);
+  color: rgb(130, 95, 36);
+}
+
+.navigation .icon {
+  height: 200px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 10px;
+  background-color: rgb(177, 165, 144);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.navigation .label {
+  margin-top: 15px;
+}
+
+#home { background-image: url('images/home.jpg') }
+#blog { background-image: url('images/blog.jpg') }
+#about { background-image: url('images/about.jpg') }
+#data { background-image: url('images/data.jpg') }
+
+#content {
+  background-color: rgb(207, 201, 193);
+  margin-top: 20px;
+  min-height: 400px;
+  padding: 20px 0px;
+}
+
+#footer {
+  background-color: rgb(117, 106, 90);
+  margin-top: 20px;
+  min-height: 50px;
+  padding: 20px 0px;
+  color: white;
+}
